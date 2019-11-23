@@ -1,0 +1,38 @@
+#titleText{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: 10%;
+    border-bottom-style: double;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#headerLogo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: -125px;
+}
+
+#table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#searchBar{
+    margin-left: -500px;
+    margin-bottom: 5px;
+}
+
+body{
+    background-image: url("../img/background.jpeg");
+    background-size: auto;
+}
+
+#headTable{
+    color: white;
+    text-align: left;
+}

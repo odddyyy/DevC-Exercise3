@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exercise 3</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <img id="headerLogo" src="src/img/starwarslogo.jpeg">
 </head>
+
 <body>
-    <center>
-        <h1>Daftar Planet</h1>
-    </center>
+    <h1 id="titleText">Character Information</h1>
+    <div style="text-align: center;" id="searchBar">
+        <input type="text" id="userInput" onkeyup="search()" placeholder="Search" align="center">
+    </div>
+    <table id="mainTable" border="1" align="center">
+        <thead id="headTable">
+            <tr id="tableList">
+                <th onclick="sort(0)">Name</th>
+                <th onclick="sort(1)">Height</th>
+                <th onclick="sort(2)">Mass</th>
+                <th onclick="sort(3)">Hair Color</th>
+                <th onclick="sort(4)">Skin Color</th>
+                <th onclick="sort(5)">Eye Color</th>
+                <th onclick="sort(6)">Birth Year</th>
+                <th onclick="sort(7)">Gender</th>
+            </tr>
+        </thead>
+        <tbody id="table"></tbody>
+    </table>
 </body>
+<script src="src/script/swapi.js"></script>
+
 </html>
